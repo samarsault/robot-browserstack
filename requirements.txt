@@ -1,4 +1,4 @@
-robotframework
+robotframework==7.0
 robotframework-seleniumlibrary
 robotframework-pabot
 browserstack-local
