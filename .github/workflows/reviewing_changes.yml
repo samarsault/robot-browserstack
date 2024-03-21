@@ -18,7 +18,7 @@ jobs:
       max-parallel: 3
       matrix:
         python: ['3.8']
-        os: [ windows-latest, ubuntu-latest ]
+        os: [ ubuntu-20.04 ]
     name: Robot Repo ${{ matrix.python }} - ${{ matrix.os }} Sample
     env:
       BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
